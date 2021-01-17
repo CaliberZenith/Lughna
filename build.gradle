@@ -12,7 +12,7 @@ apply plugin: 'net.minecraftforge.gradle'
 apply plugin: 'eclipse'
 apply plugin: 'maven-publish'
 
-version = '1.0'
+version = '1.4'
 group = 'com.mishainah.lughna' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = 'lughna'
 
@@ -73,7 +73,7 @@ minecraft {
 sourceSets.main.resources { srcDir 'src/generated/resources' }
 
 dependencies {
-    minecraft 'net.minecraftforge:forge:1.16.4-35.1.0'
+    minecraft 'net.minecraftforge:forge:1.16.4-35.1.4'
 }
 
 jar {
