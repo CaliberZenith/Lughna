@@ -15,13 +15,6 @@ public class BlockInit {
 
     public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, Lughna.MOD_ID);
 
-    public static final RegistryObject<Block> NODE_TAP = BLOCKS.register
-            ("node_tap", () -> new Block(AbstractBlock.Properties.create
-                    (Material.IRON)
-                    .sound(SoundType.METAL)
-                    .harvestTool(ToolType.PICKAXE)
-                    .harvestLevel(2)));
-
     public static final RegistryObject<Block> CONDENSER = BLOCKS.register
             ("condenser", () -> new Block(AbstractBlock.Properties.create
                     (Material.ROCK)
@@ -29,5 +22,11 @@ public class BlockInit {
                     .harvestTool(ToolType.PICKAXE)
                     .harvestLevel(2)));
 
+    public static final RegistryObject<Block> NODE_TAP = BLOCKS.register(
+            "node_tap", () -> new Block(AbstractBlock.Properties.create
+                    (Material.IRON)
+                    .sound(SoundType.METAL)
+                    .harvestTool(ToolType.PICKAXE)
+                    .harvestLevel(2)));
 
 }
