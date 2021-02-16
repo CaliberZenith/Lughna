@@ -1,6 +1,6 @@
-package com.mishainah.lughna.core.init;
+package com.mishaiah.lughna.core.init;
 
-import com.mishainah.lughna.Lughna;
+import com.mishaiah.lughna.Lughna;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;

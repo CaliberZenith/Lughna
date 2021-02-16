@@ -1,7 +1,9 @@
-package com.mishainah.lughna;
+package com.mishaiah.lughna;
 
-import com.mishainah.lughna.core.init.BlockInit;
-import com.mishainah.lughna.core.init.ItemInit;
+import com.mishaiah.lughna.core.init.BlockInit;
+import com.mishaiah.lughna.core.init.ItemInit;
+import com.mishaiah.lughna.setup.ClientSetup;
+import com.mishaiah.lughna.setup.ModSetup;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.common.Mod;
@@ -26,11 +28,14 @@ public class Lughna
         ItemInit.ITEMS.register(bus);
         BlockInit.BLOCKS.register(bus);
 
+        FMLJavaModLoadingContext.get().getModEventBus().addListener(ModSetup::init);
+        FMLJavaModLoadingContext.get().getModEventBus().addListener(ClientSetup::init);
+
         MinecraftForge.EVENT_BUS.register(this);
     }
 
     private void setup(final FMLCommonSetupEvent event) {
 
-
     }
+
 }

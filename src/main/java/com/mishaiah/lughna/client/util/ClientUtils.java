@@ -1,4 +1,4 @@
-package com.mishainah.lughna.client.util;
+package com.mishaiah.lughna.client.util;
 
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.api.distmarker.OnlyIn;

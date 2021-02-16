@@ -9,7 +9,7 @@ displayName="Lughna"
 updateJSONURL="https://www.curseforge.com/minecraft/mc-mods/lughna"
 displayURL="https://sites.google.com/view/mishais-hub"
 logoFile="examplemod.png"
-credits="Thanks for this example mod goes to hypherionsa and nekosune, for all the help they gave me that made this mod possible."
+credits="Thanks for this example mod goes to hypherionsa, nekosune, and Woodland Creature of Modded Minecraft for all the help they gave me that made this mod possible."
 authors="Love, Cheese, Eggs, and Mishainah."
 description='''A Magic Mod made by Mishainah that's based on the theory of ley lines.'''
 [[dependencies.lughna]]
