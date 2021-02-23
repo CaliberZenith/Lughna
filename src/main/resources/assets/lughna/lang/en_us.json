@@ -7,5 +7,6 @@
 
   //Blocks
   "block.lughna.condenser": "Condenser",
-  "block.lughna.node_tap": "Node Tap"
+  "block.lughna.node_tap": "Node Tap",
+  "block.lughna.infused_stone": "Infused Stone"
 }

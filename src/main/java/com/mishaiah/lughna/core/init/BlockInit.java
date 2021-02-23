@@ -2,6 +2,7 @@ package com.mishaiah.lughna.core.init;
 
 import com.mishaiah.lughna.Lughna;
 import com.mishaiah.lughna.common.blocks.Condenser;
+import com.mishaiah.lughna.common.blocks.InfusedStone;
 import com.mishaiah.lughna.common.blocks.NodeTap;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
@@ -20,5 +21,8 @@ public class BlockInit {
 
     public static final RegistryObject<Block> NODE_TAP = BLOCKS.register(
             "node_tap", () -> new NodeTap(AbstractBlock.Properties.create(Material.IRON)));
+
+    public static final RegistryObject<Block> INFUSED_STONE = BLOCKS.register(
+            "infused_stone", () -> new InfusedStone(AbstractBlock.Properties.create(Material.ROCK)));
 
 }

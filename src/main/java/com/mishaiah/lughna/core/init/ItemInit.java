@@ -33,5 +33,8 @@ public class ItemInit {
     public static final RegistryObject<BlockItem> NODE_TAP = ITEMS.register("node_tap",
             () -> new BlockItem(BlockInit.NODE_TAP.get(), new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)));
 
+    public static final RegistryObject<BlockItem> INFUSED_STONE = ITEMS.register("infused_stone",
+            () -> new BlockItem(BlockInit.INFUSED_STONE.get(), new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)));
+
 }
 
