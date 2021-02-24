@@ -13,7 +13,7 @@ public class InfusedStone extends Block {
                 .harvestTool(ToolType.PICKAXE)
                 .sound(SoundType.STONE)
                 .hardnessAndResistance(1.5f, 6f)
-                .setLightLevel(BlockState -> 1));
+                .setLightLevel((BlockState) -> 5));
 
     }
 
