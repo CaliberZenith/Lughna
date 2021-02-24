@@ -14,6 +14,7 @@ public class NodeTap extends Block implements CustomRenderStuff {
                 .sound(SoundType.METAL)
                 .harvestTool(ToolType.PICKAXE)
                 .harvestLevel(2)
+                .hardnessAndResistance(1.5f, 6f)
                 .notSolid());
     }
 
